@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_ZINYAK_EDGE_TRAIT" Language="en_US">
+			<Text>Zinyaks edge</Text>
+		</Row>
+		<Row Tag="LOC_ZINYAK_EDGE_TRAIT_DESC" Language="en_US">
+			<Text>Unbalacing changes</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

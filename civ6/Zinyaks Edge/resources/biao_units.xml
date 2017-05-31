@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Tags>
+        <Row Tag="CLASS_STONE" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_COPPER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_IRON" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HORSE" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_NITER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_COAL" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_OIL" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_ALU" Vocabulary="ABILITY_CLASS"/>
+        <Row Tag="CLASS_URANIUM" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+        <Row Type="UNIT_RANGER" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_RANGER" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_WARRIOR" Tag="CLASS_STONE"/>
+        <Row Type="UNIT_WARRIOR" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_AZTEC_EAGLE_WARRIOR" Tag="CLASS_STONE"/>
+		<Row Type="UNIT_AZTEC_EAGLE_WARRIOR" Tag="CLASS_COPPER"/>
+		<Row Type="UNIT_SWORDSMAN" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_SWORDSMAN" Tag="CLASS_COPPER"/>
+		<Row Type="UNIT_MUSKETMAN" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_MUSKETMAN" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_INFANTRY" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_MECHANIZED_INFANTRY" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_MECHANIZED_INFANTRY" Tag="CLASS_URANIUM"/>
+        <Row Type="UNIT_MECHANIZED_INFANTRY" Tag="CLASS_COAL"/>
+        <Row Type="UNIT_SLINGER" Tag="CLASS_STONE"/>
+        <Row Type="UNIT_ARCHER" Tag="CLASS_STONE"/>
+        <Row Type="UNIT_ARCHER" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_CROSSBOWMAN" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_CROSSBOWMAN" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_CHINESE_CROUCHING_TIGER" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_CHINESE_CROUCHING_TIGER" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_CHINESE_CROUCHING_TIGER" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_FIELD_CANNON" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_FIELD_CANNON" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_FIELD_CANNON" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_MACHINE_GUN" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_SPEARMAN" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_SPEARMAN" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_PIKEMAN" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_CATAPULT" Tag="CLASS_STONE"/>
+        <Row Type="UNIT_CATAPULT" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_CATAPULT" Tag="CLASS_IRON"/>
+		<Row Type="UNIT_BOMBARD" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_BOMBARD" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_BOMBARD" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_ARTILLERY" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_ROCKET_ARTILLERY" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_ROCKET_ARTILLERY" Tag="CLASS_URANIUM"/>
+        <Row Type="UNIT_ROCKET_ARTILLERY" Tag="CLASS_COAL"/>
+        <Row Type="UNIT_HEAVY_CHARIOT" Tag="CLASS_COPPER"/>
+        <!-- <Row Type="UNIT_HEAVY_CHARIOT" Tag="CLASS_HORSE"/> -->
+		<Row Type="UNIT_KNIGHT" Tag="CLASS_IRON"/>
+		<!-- <Row Type="UNIT_KNIGHT" Tag="CLASS_HORSE"/> -->
+		<!-- <Row Type="UNIT_HORSEMAN" Tag="CLASS_HORSE"/> -->
+        <Row Type="UNIT_HORSEMAN" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_HORSEMAN" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_SCYTHIAN_HORSE_ARCHER" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_SCYTHIAN_HORSE_ARCHER" Tag="CLASS_IRON"/>
+		<!-- <Row Type="UNIT_CAVALRY" Tag="CLASS_HORSE"/> -->
+        <Row Type="UNIT_CAVALRY" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_CAVALRY" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_HELICOPTER" Tag="CLASS_ALU"/>
+        <Row Type="UNIT_HELICOPTER" Tag="CLASS_COAL"/>
+        <Row Type="UNIT_GALLEY" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_GALLEY" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_CARAVEL" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_CARAVEL" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_CARAVEL" Tag="CLASS_COPPER"/>
+		<Row Type="UNIT_IRONCLAD" Tag="CLASS_COAL"/>
+        <Row Type="UNIT_IRONCLAD" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_IRONCLAD" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_DESTROYER" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_DESTROYER" Tag="CLASS_OIL"/>
+        <Row Type="UNIT_QUADRIREME" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_QUADRIREME" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_FRIGATE" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_FRIGATE" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_FRIGATE" Tag="CLASS_COPPER"/>
+		<Row Type="UNIT_BATTLESHIP" Tag="CLASS_COAL"/>
+        <Row Type="UNIT_BATTLESHIP" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_BATTLESHIP" Tag="CLASS_OIL"/>
+        <Row Type="UNIT_MISSILE_CRUISER" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_MISSILE_CRUISER" Tag="CLASS_URANIUM"/>
+        <Row Type="UNIT_MISSILE_CRUISER" Tag="CLASS_ALU"/>        
+        <Row Type="UNIT_PRIVATEER" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_PRIVATEER" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_PRIVATEER" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_NUCLEAR_SUBMARINE" Tag="CLASS_IRON"/>
+		<Row Type="UNIT_AIRCRAFT_CARRIER" Tag="CLASS_OIL"/>
+        <Row Type="UNIT_AIRCRAFT_CARRIER" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_AIRCRAFT_CARRIER" Tag="CLASS_ALU"/>
+        <Row Type="UNIT_EGYPTIAN_CHARIOT_ARCHER" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_EGYPTIAN_CHARIOT_ARCHER" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_SUMERIAN_WAR_CART" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_SUMERIAN_WAR_CART" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_JAPANESE_SAMURAI" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_GREEK_HOPLITE" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_GREEK_HOPLITE" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_AT_CREW" Tag="CLASS_IRON"/>
+		<Row Type="UNIT_TANK" Tag="CLASS_OIL"/>
+        <Row Type="UNIT_TANK" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_MODERN_ARMOR" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_MODERN_ARMOR" Tag="CLASS_URANIUM"/>
+        <Row Type="UNIT_MODERN_ARMOR" Tag="CLASS_COAL"/>
+        <Row Type="UNIT_MODERN_AT" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_MODERN_AT" Tag="CLASS_COAL"/>
+        <Row Type="UNIT_MODERN_AT" Tag="CLASS_URANIUM"/>
+        <Row Type="UNIT_AMERICAN_ROUGH_RIDER" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_AMERICAN_ROUGH_RIDER" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_SPANISH_CONQUISTADOR" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_SPANISH_CONQUISTADOR" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_ROMAN_LEGION" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_ROMAN_LEGION" Tag="CLASS_IRON"/>
+		<Row Type="UNIT_FIGHTER" Tag="CLASS_ALU"/>
+		<Row Type="UNIT_BOMBER" Tag="CLASS_ALU"/>
+		<Row Type="UNIT_JET_BOMBER" Tag="CLASS_ALU"/>
+        <Row Type="UNIT_JET_BOMBER" Tag="CLASS_COAL"/>
+		<Row Type="UNIT_JET_FIGHTER" Tag="CLASS_ALU"/>
+        <Row Type="UNIT_JET_FIGHTER" Tag="CLASS_COAL"/>
+        <Row Type="UNIT_SUBMARINE" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_NORWEGIAN_BERSERKER" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_NORWEGIAN_LONGSHIP" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_NORWEGIAN_LONGSHIP" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_RUSSIAN_COSSACK" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_RUSSIAN_COSSACK" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_INDIAN_VARU" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_INDIAN_VARU" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_ARABIAN_MAMLUK" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_KONGO_SHIELD_BEARER" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_KONGO_SHIELD_BEARER" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_ENGLISH_SEADOG" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_ENGLISH_SEADOG" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_ENGLISH_SEADOG" Tag="CLASS_COPPER"/>
+        <Row Type="UNIT_ENGLISH_REDCOAT" Tag="CLASS_IRON"/>
+		<Row Type="UNIT_ENGLISH_REDCOAT" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_FRENCH_GARDE_IMPERIALE" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_FRENCH_GARDE_IMPERIALE" Tag="CLASS_NITER"/>
+        <Row Type="UNIT_GERMAN_UBOAT" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_AMERICAN_P51" Tag="CLASS_ALU"/>
+        <Row Type="UNIT_BRAZILIAN_MINAS_GERAES" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_ANTIAIR_GUN" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_MOBILE_SAM" Tag="CLASS_IRON"/>
+        <Row Type="UNIT_MOBILE_SAM" Tag="CLASS_COAL"/>
+        <Row Type="UNIT_MOBILE_SAM" Tag="CLASS_URANIUM"/>
+	</TypeTags>
+	<Units>
+		<Update>
+	        <Where StrategicResource="RESOURCE_IRON"/>
+	        <Set StrategicResource="NULL"/>
+	    </Update>
+	    <Update>
+	        <Where StrategicResource="RESOURCE_NITER"/>
+	        <Set StrategicResource="NULL"/>
+	    </Update>
+	    <Update>
+	        <Where StrategicResource="RESOURCE_ALUMINUM"/>
+	        <Set StrategicResource="RESOURCE_OIL"/>
+	    </Update>
+		<Update>
+			<Where UnitType="UNIT_WARRIOR"/>
+			<Set MandatoryObsoleteTech="TECH_IRON_WORKING"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_WARRIOR"/>
+			<Set Description="LOC_UNIT_BMOD_WARRIOR_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_AZTEC_EAGLE_WARRIOR"/>
+			<Set Description="LOC_UNIT_BMOD_AZTEC_EAGLE_WARRIOR_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SLINGER"/>
+			<Set Description="LOC_UNIT_BMOD_SLINGER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_SUMERIAN_WAR_CART"/>
+			<Set Description="LOC_UNIT_BMOD_SUMERIAN_WAR_CART_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_GALLEY"/>
+			<Set Description="LOC_UNIT_BMOD_GALLEY_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_NORWEGIAN_LONGSHIP"/>
+			<Set Description="LOC_UNIT_BMOD_NORWEGIAN_LONGSHIP_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_ARCHER"/>
+			<Set Description="LOC_UNIT_BMOD_ARCHER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_SPEARMAN"/>
+			<Set Description="LOC_UNIT_BMOD_SPEARMAN_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_HEAVY_CHARIOT"/>
+			<Set Description="LOC_UNIT_BMOD_HEAVY_CHARIOT_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_GREEK_HOPLITE"/>
+			<Set Description="LOC_UNIT_BMOD_GREEK_HOPLITE_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWORDSMAN"/>
+			<Set Description="LOC_UNIT_BMOD_SWORDSMAN_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_HORSEMAN"/>
+			<Set Description="LOC_UNIT_BMOD_HORSEMAN_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_SCYTHIAN_HORSE_ARCHER"/>
+			<Set Description="LOC_UNIT_BMOD_SCYTHIAN_HORSE_ARCHER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_ROMAN_LEGION"/>
+			<Set Description="LOC_UNIT_BMOD_ROMAN_LEGION_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_KONGO_SHIELD_BEARER"/>
+			<Set Description="LOC_UNIT_BMOD_KONGO_SHIELD_BEARER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_CATAPULT"/>
+			<Set Description="LOC_UNIT_BMOD_CATAPULT_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_QUADRIREME"/>
+			<Set Description="LOC_UNIT_BMOD_QUADRIREME_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_EGYPTIAN_CHARIOT_ARCHER"/>
+			<Set Description="LOC_UNIT_BMOD_EGYPTIAN_CHARIOT_ARCHER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_JAPANESE_SAMURAI"/>
+			<Set Description="LOC_UNIT_BMOD_JAPANESE_SAMURAI_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_NORWEGIAN_BERSERKER"/>
+			<Set Description="LOC_UNIT_BMOD_NORWEGIAN_BERSERKER_DESCRIPTION"/>
+		</Update>
+
+		<Update>
+			<Where UnitType="UNIT_MUSKETMAN"/>
+			<Set Description="LOC_UNIT_BMOD_MUSKETMAN_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set Description="LOC_UNIT_BMOD_SPANISH_CONQUISTADOR_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_CARAVEL"/>
+			<Set Description="LOC_UNIT_BMOD_CARAVEL_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBARD"/>
+			<Set Description="LOC_UNIT_BMOD_BOMBARD_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_FRIGATE"/>
+			<Set Description="LOC_UNIT_BMOD_FRIGATE_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_PRIVATEER"/>
+			<Set Description="LOC_UNIT_BMOD_PRIVATEER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_ENGLISH_SEADOG"/>
+			<Set Description="LOC_UNIT_BMOD_ENGLISH_SEADOG_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_FIELD_CANNON"/>
+			<Set Description="LOC_UNIT_BMOD_FIELD_CANNON_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KNIGHT"/>
+			<Set Description="LOC_UNIT_BMOD_KNIGHT_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_INDIAN_VARU"/>
+			<Set Description="LOC_UNIT_BMOD_INDIAN_VARU_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_ARABIAN_MAMLUK"/>
+			<Set Description="LOC_UNIT_BMOD_ARABIAN_MAMLUK_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_CROSSBOWMAN"/>
+			<Set Description="LOC_UNIT_BMOD_CROSSBOWMAN_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_CHINESE_CROUCHING_TIGER"/>
+			<Set Description="LOC_UNIT_BMOD_CHINESE_CROUCHING_TIGER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_PIKEMAN"/>
+			<Set Description="LOC_UNIT_BMOD_PIKEMAN_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CAVALRY"/>
+			<Set Description="LOC_UNIT_BMOD_CAVALRY_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_RUSSIAN_COSSACK"/>
+			<Set Description="LOC_UNIT_BMOD_RUSSIAN_COSSACK_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_ENGLISH_REDCOAT"/>
+			<Set Description="LOC_UNIT_BMOD_ENGLISH_REDCOAT_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/>
+			<Set Description="LOC_UNIT_BMOD_FRENCH_GARDE_IMPERIALE_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_IRONCLAD"/>
+			<Set Description="LOC_UNIT_BMOD_IRONCLAD_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_AMERICAN_ROUGH_RIDER"/>
+			<Set Description="LOC_UNIT_BMOD_AMERICAN_ROUGH_RIDER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_RANGER"/>
+			<Set Description="LOC_UNIT_BMOD_RANGER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_INFANTRY"/>
+			<Set Description="LOC_UNIT_BMOD_INFANTRY_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_ARTILLERY"/>
+			<Set Description="LOC_UNIT_BMOD_ARTILLERY_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BATTLESHIP"/>
+			<Set Description="LOC_UNIT_BMOD_BATTLESHIP_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES"/>
+			<Set Description="LOC_UNIT_BMOD_BRAZILIAN_MINAS_GERAES_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_SUBMARINE"/>
+			<Set Description="LOC_UNIT_BMOD_SUBMARINE_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_GERMAN_UBOAT"/>
+			<Set Description="LOC_UNIT_BMOD_GERMAN_UBOAT_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_AT_CREW"/>
+			<Set Description="LOC_UNIT_BMOD_AT_CREW_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
+			<Set Description="LOC_UNIT_BMOD_AIRCRAFT_CARRIER_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TANK"/>
+			<Set Description="LOC_UNIT_BMOD_TANK_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FIGHTER"/>
+			<Set Description="LOC_UNIT_BMOD_FIGHTER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_AMERICAN_P51"/>
+			<Set Description="LOC_UNIT_BMOD_AMERICAN_P51_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBER"/>
+			<Set Description="LOC_UNIT_BMOD_BOMBER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_ANTIAIR_GUN"/>
+			<Set Description="LOC_UNIT_BMOD_ANTIAIR_GUN_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_MACHINE_GUN"/>
+			<Set Description="LOC_UNIT_BMOD_MACHINE_GUN_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_DESTROYER"/>
+			<Set Description="LOC_UNIT_BMOD_DESTROYER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_HELICOPTER"/>
+			<Set Description="LOC_UNIT_BMOD_HELICOPTER_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_NUCLEAR_SUBMARINE"/>
+			<Set Description="LOC_UNIT_BMOD_NUCLEAR_SUBMARINE_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_MECHANIZED_INFANTRY"/>
+			<Set Description="LOC_UNIT_BMOD_MECHANIZED_INFANTRY_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_ROCKET_ARTILLERY"/>
+			<Set Description="LOC_UNIT_BMOD_ROCKET_ARTILLERY_DESCRIPTION"/>
+		</Update>
+	            <Update>
+			<Where UnitType="UNIT_MOBILE_SAM"/>
+			<Set Description="LOC_UNIT_BMOD_MOBILE_SAM_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_FIGHTER"/>
+			<Set Description="LOC_UNIT_BMOD_JET_FIGHTER_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_BOMBER"/>
+			<Set Description="LOC_UNIT_BMOD_JET_BOMBER_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MISSILE_CRUISER"/>
+			<Set Description="LOC_UNIT_BMOD_MISSILE_CRUISER_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_AT"/>
+			<Set Description="LOC_UNIT_BMOD_MODERN_AT_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_ARMOR"/>
+			<Set Description="LOC_UNIT_BMOD_MODERN_ARMOR_DESCRIPTION"/>
+		</Update>
+	</Units>
+</GameInfo>

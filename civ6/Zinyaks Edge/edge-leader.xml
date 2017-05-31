@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MONTEZUMA" TraitType="ZINYAK_EDGE_TRAIT"/>
+	</LeaderTraits>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_TLACHTLI" YieldType="YIELD_PRODUCTION" YieldChange="5"/>
+		<Row BuildingType="BUILDING_TLACHTLI" YieldType="YIELD_GOLD" YieldChange="10"/>
+	</Building_YieldChanges>
+</GameInfo>
+

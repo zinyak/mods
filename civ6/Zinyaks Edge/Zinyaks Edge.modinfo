@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="79a86bee-c255-45b4-ae34-5261c115ffa5">
+	<Properties>
+		<Name>Zinyaks Edge a5</Name>
+		<Stability>Beta</Stability>
+		<Teaser>Zinyaks Edge</Teaser>
+		<Description>Zinyaks Edge</Description>
+		<Authors>Zinyak</Authors>
+	</Properties>
+	<Files>
+		<File>resources/biao_text.xml</File>
+		<File>resources/biao_units.xml</File>
+		<File>resources/biao_unit_abilities.xml</File>
+		<File>edge-text.xml</File>
+		<File>pace.sql</File>
+		<File>units.sql</File>
+		<File>edge-trait.xml</File>
+		<File>edge-leader.xml</File>
+		<File>globals.sql</File>
+	</Files>
+	<Settings>
+		<Custom id="edge">
+			<Items>
+				<Component>UpdateComponents</Component>
+			</Items>
+		</Custom>
+	</Settings>	
+	<Components>
+		<UpdateDatabase id="UpdateComponents">
+			<Properties>
+				<Name>Tech pace and production times</Name>
+			</Properties>
+			<Items>
+				<File>resources/biao_units.xml</File>
+				<File>resources/biao_unit_abilities.xml</File>				
+				<File>pace.sql</File>
+				<File>units.sql</File>				
+				<File>edge-trait.xml</File>
+				<File>edge-leader.xml</File>
+				<File>globals.sql</File>				
+			</Items>
+		</UpdateDatabase>
+        <LocalizedText>
+			<Items>	
+				<File>resources/biao_text.xml</File>
+				<File>edge-text.xml</File>	
+			</Items>
+		</LocalizedText>		
+	</Components>
+</Mod>

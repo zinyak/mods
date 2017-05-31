@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+        <Row Type="ABILITY_STONE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_COPPER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_IRON" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HORSE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_NITER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_COAL" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_OIL" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ALU" Kind="KIND_ABILITY"/>
+        <Row Type="ABILITY_URANIUM" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+        <Row Type="ABILITY_STONE" Tag="CLASS_STONE"/>
+		<Row Type="ABILITY_COPPER" Tag="CLASS_COPPER"/>
+		<Row Type="ABILITY_IRON" Tag="CLASS_IRON"/>
+		<Row Type="ABILITY_HORSE" Tag="CLASS_HORSE"/>
+		<Row Type="ABILITY_NITER" Tag="CLASS_NITER"/>
+		<Row Type="ABILITY_COAL" Tag="CLASS_COAL"/>
+		<Row Type="ABILITY_OIL" Tag="CLASS_OIL"/>
+		<Row Type="ABILITY_ALU" Tag="CLASS_ALU"/>
+        <Row Type="ABILITY_URANIUM" Tag="CLASS_URANIUM"/>
+	</TypeTags>
+	<UnitAbilities>
+        <Row UnitAbilityType="ABILITY_STONE" Name="LOC_ABILITY_STONE_NAME" Description="LOC_ABILITY_STONE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_COPPER" Name="LOC_ABILITY_COPPER_NAME" Description="LOC_ABILITY_COPPER_DESCRIPTION"/>
+		
+		<Row UnitAbilityType="ABILITY_IRON" Name="LOC_ABILITY_IRON_NAME" Description="LOC_ABILITY_IRON_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HORSE" Name="LOC_ABILITY_HORSE_NAME" Description="LOC_ABILITY_HORSE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_NITER" Name="LOC_ABILITY_NITER_NAME" Description="LOC_ABILITY_NITER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_COAL" Name="LOC_ABILITY_COAL_NAME" Description="LOC_ABILITY_COAL_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_OIL" Name="LOC_ABILITY_OIL_NAME" Description="LOC_ABILITY_OIL_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ALU" Name="LOC_ABILITY_ALU_NAME" Description="LOC_ABILITY_ALU_DESCRIPTION"/>
+        <Row UnitAbilityType="ABILITY_URANIUM" Name="LOC_ABILITY_URANIUM_NAME" Description="LOC_ABILITY_URANIUM_DESCRIPTION"/>
+	
+        </UnitAbilities>
+	<UnitAbilityModifiers>
+        <Row>
+			<UnitAbilityType>ABILITY_STONE</UnitAbilityType>
+			<ModifierId>STONE_RESOURCE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_COPPER</UnitAbilityType>
+			<ModifierId>COPPER_RESOURCE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_IRON</UnitAbilityType>
+			<ModifierId>IRON_RESOURCE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HORSE</UnitAbilityType>
+			<ModifierId>HORSE_RESOURCE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_NITER</UnitAbilityType>
+			<ModifierId>NITER_RESOURCE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_COAL</UnitAbilityType>
+			<ModifierId>COAL_RESOURCE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_OIL</UnitAbilityType>
+			<ModifierId>OIL_RESOURCE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ALU</UnitAbilityType>
+			<ModifierId>ALU_RESOURCE_COMBAT</ModifierId>
+		</Row>
+                <Row>
+			<UnitAbilityType>ABILITY_URANIUM</UnitAbilityType>
+			<ModifierId>ALU_RESOURCE_COMBAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+        <Row>
+			<ModifierId>STONE_RESOURCE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>STONE_RESOURCE_COMBAT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COPPER_RESOURCE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>COPPER_RESOURCE_COMBAT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>IRON_RESOURCE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>IRON_RESOURCE_COMBAT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HORSE_RESOURCE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HORSE_RESOURCE_COMBAT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>NITER_RESOURCE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>NITER_RESOURCE_COMBAT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>COAL_RESOURCE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>COAL_RESOURCE_COMBAT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>OIL_RESOURCE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>OIL_RESOURCE_COMBAT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ALU_RESOURCE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ALU_RESOURCE_COMBAT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+        <Row>
+			<ModifierId>URANIUM_RESOURCE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>URANIUM_RESOURCE_COMBAT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+        <Row>
+			<ModifierId>STONE_RESOURCE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>COPPER_RESOURCE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_RESOURCE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>HORSE_RESOURCE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>NITER_RESOURCE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>COAL_RESOURCE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>OIL_RESOURCE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>ALU_RESOURCE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+        <Row>
+			<ModifierId>URANIUM_RESOURCE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+        <Row>
+			<RequirementSetId>STONE_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>COPPER_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>IRON_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HORSE_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>NITER_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>COAL_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>OIL_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>ALU_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+        <Row>
+			<RequirementSetId>URANIUM_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+        <Row>
+			<RequirementSetId>STONE_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_OWNED_STONE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>COPPER_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_OWNED_COPPER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>IRON_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_OWNED_IRON</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HORSE_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_OWNED_HORSE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NITER_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_OWNED_NITER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>COAL_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_OWNED_COAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OIL_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_OWNED_OIL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ALU_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_OWNED_ALU</RequirementId>
+		</Row>
+        <Row>
+			<RequirementSetId>URANIUM_RESOURCE_COMBAT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_OWNED_URANIUM</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+        <Row>
+			<RequirementId>REQUIRES_OWNED_STONE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_COPPER</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_IRON</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_HORSE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_NITER</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_COAL</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_OIL</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_ALU</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED</RequirementType>
+		</Row>
+        <Row>
+			<RequirementId>REQUIRES_OWNED_URANIUM</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+        <Row>
+			<RequirementId>REQUIRES_OWNED_STONE</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_STONE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_COPPER</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COPPER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_IRON</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_HORSE</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_HORSES</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_NITER</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_NITER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_COAL</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_OIL</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_OIL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_OWNED_ALU</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_ALUMINUM</Value>
+		</Row>
+        <Row>
+			<RequirementId>REQUIRES_OWNED_URANIUM</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_URANIUM</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+        <Row ModifierId="STONE_RESOURCE_COMBAT" Context="Preview" Text="LOC_ABILITY_STONE_RESOURCE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="COPPER_RESOURCE_COMBAT" Context="Preview" Text="LOC_ABILITY_COPPER_RESOURCE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="IRON_RESOURCE_COMBAT" Context="Preview" Text="LOC_ABILITY_IRON_RESOURCE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="HORSE_RESOURCE_COMBAT" Context="Preview" Text="LOC_ABILITY_HORSE_RESOURCE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="NITER_RESOURCE_COMBAT" Context="Preview" Text="LOC_ABILITY_NITER_RESOURCE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="COAL_RESOURCE_COMBAT" Context="Preview" Text="LOC_ABILITY_COAL_RESOURCE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="OIL_RESOURCE_COMBAT" Context="Preview" Text="LOC_ABILITY_OIL_RESOURCE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="ALU_RESOURCE_COMBAT" Context="Preview" Text="LOC_ABILITY_ALU_RESOURCE_COMBAT_MODIFIER_DESCRIPTION"/>	
+        <Row ModifierId="URANIUM_RESOURCE_COMBAT" Context="Preview" Text="LOC_ABILITY_URANIUM_RESOURCE_COMBAT_MODIFIER_DESCRIPTION"/>	
+</ModifierStrings>
+</GameInfo>

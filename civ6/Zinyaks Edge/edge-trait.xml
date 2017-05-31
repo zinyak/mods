@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="ZINYAK_EDGE_TRAIT" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="ZINYAK_EDGE_TRAIT" Name="LOC_ZINYAK_EDGE_TRAIT" Description="LOC_ZINYAK_EDGE_TRAIT_DESC"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_PRODUCTION_MODIFIER"/>
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_FAITH_MODIFIER"/>		
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_GOLD_MODIFIER"/>		
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_CULTURE_MODIFIER"/>		
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_DISTRICT_GOLD_YIELD_MODIFIER"/>
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_DISTRICT_PRODUCTION_YIELD_MODIFIER"/>
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_DISTRICT_FOOD_YIELD_MODIFIER"/>
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_GOLD_YIELD_CHANGE_MODIFIER"/>
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_PRODUCTION_YIELD_CHANGE_MODIFIER"/>
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_XP_MODIFIER"/>
+		<Row TraitType="ZINYAK_EDGE_TRAIT" ModifierId="ZINYAK_EDGE_GROWTH_MODIFIER"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_PRODUCTION_MODIFIER</ModifierId>
+		  <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_FAITH_MODIFIER</ModifierId>
+		  <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_GOLD_MODIFIER</ModifierId>
+		  <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_CULTURE_MODIFIER</ModifierId>
+		  <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_DISTRICT_GOLD_YIELD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT</ModifierType>		
+		</Row>		
+		<Row>
+			<ModifierId>ZINYAK_EDGE_DISTRICT_PRODUCTION_YIELD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT</ModifierType>		
+		</Row>	
+		<Row>
+			<ModifierId>ZINYAK_EDGE_DISTRICT_FOOD_YIELD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT</ModifierType>		
+		</Row>			
+		<Row>
+			<ModifierId>ZINYAK_EDGE_GOLD_YIELD_CHANGE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>		
+		</Row>		
+		<Row>
+			<ModifierId>ZINYAK_EDGE_PRODUCTION_YIELD_CHANGE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>		
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>		
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_GROWTH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>		
+	</Modifiers>		
+	<ModifierArguments>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_PRODUCTION_MODIFIER</ModifierId>
+		  <Name>YieldType</Name><Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_PRODUCTION_MODIFIER</ModifierId>
+		  <Name>Amount</Name><Value>50</Value>
+		</Row>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_GOLD_MODIFIER</ModifierId>
+		  <Name>YieldType</Name><Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_GOLD_MODIFIER</ModifierId>
+		  <Name>Amount</Name><Value>50</Value>
+		</Row>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_FAITH_MODIFIER</ModifierId>
+		  <Name>YieldType</Name><Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_FAITH_MODIFIER</ModifierId>
+		  <Name>Amount</Name><Value>10</Value>
+		</Row>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_CULTURE_MODIFIER</ModifierId>
+		  <Name>YieldType</Name><Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+		  <ModifierId>ZINYAK_EDGE_CULTURE_MODIFIER</ModifierId>
+		  <Name>Amount</Name><Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_DISTRICT_GOLD_YIELD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_DISTRICT_GOLD_YIELD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_DISTRICT_PRODUCTION_YIELD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_DISTRICT_PRODUCTION_YIELD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_DISTRICT_FOOD_YIELD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_DISTRICT_FOOD_YIELD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>		
+		<Row>
+			<ModifierId>ZINYAK_EDGE_GOLD_YIELD_CHANGE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MONUMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_GOLD_YIELD_CHANGE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_GOLD_YIELD_CHANGE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_PRODUCTION_YIELD_CHANGE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MONUMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_PRODUCTION_YIELD_CHANGE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZINYAK_EDGE_PRODUCTION_YIELD_CHANGE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>	
+		<Row>
+			<ModifierId>ZINYAK_EDGE_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>		
+		<Row>
+			<ModifierId>ZINYAK_EDGE_GROWTH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>		
+</GameInfo>
