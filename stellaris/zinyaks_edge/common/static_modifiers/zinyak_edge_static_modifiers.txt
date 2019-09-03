@@ -1,0 +1,69 @@
+zinyak_edge_modifier = {
+	country_leader_pool_size = 5
+	country_war_exhaustion_mult = -0.5
+	country_ship_upgrade_cost_mult = -0.60
+	country_admin_cap_add = 10
+	
+	leader_age = 120
+	leader_skill_levels = 15
+	species_leader_exp_gain = 1
+	country_naval_cap_mult = 2.0
+
+	starbase_shipyard_build_speed_mult = 2
+	starbase_building_build_speed_mult = 2
+	starbase_module_build_speed_mult = 2
+	starbase_upgrade_speed_mult = 2
+
+	starbase_trade_protection_range_add = 2
+	starbase_trade_collection_range_add = 2
+
+	planet_building_build_speed_mult = 2
+	megastructure_build_speed_mult = 2
+	shipsize_starbase_outpost_build_speed_mult = 3.0
+	trade_value_mult = 5.0
+	
+	country_trade_fee = -0.15
+	ship_orbit_upkeep_mult = -0.90
+	ship_sensor_range_add = 1.0
+	ship_ftl_jumpdrive_range_mult = 1.5
+	ship_speed_mult = 0.5
+	ship_interstellar_speed_mult = 3.0
+	ship_windup_mult = -0.90
+	ship_winddown_mult = -0.90
+	ship_anomaly_fail_risk = -0.50
+	ship_anomaly_research_speed_mult = 1.0
+	science_ship_survey_speed = 2.0
+	starbases_upkeep_mult = -0.50
+
+	planet_building_upkeep_mult = -0.50
+	planet_districts_upkeep_mult = -0.50
+	planet_army_build_speed_mult = 3.0
+
+	planet_amenities_mult = 0.30
+	planet_housing_mult = 0.55
+
+	#weapon_type_kinetic_weapon_fire_rate_mult = 0.50
+	weapon_type_kinetic_weapon_damage_mult = 0.50
+	#weapon_type_explosive_weapon_fire_rate_mult = 0.50
+	weapon_type_explosive_weapon_damage_mult = 0.50
+	#weapon_type_energy_weapon_fire_rate_mult = 0.50
+	weapon_type_energy_weapon_damage_mult = 0.50
+	#weapon_type_strike_craft_weapon_fire_rate_mult = 1.0
+	weapon_type_strike_craft_weapon_damage_mult = 0.5
+	
+	planet_pop_assembly_mult=7.0
+	pop_demotion_time_mult=-2.0
+
+	job_miner_per_pop=0.05
+	job_farmer_per_pop=0.04
+	job_technician_per_pop=0.03
+	job_foundry_per_pop=0.03
+
+	job_gas_refiner_per_pop=0.015
+	job_translucer_per_pop=0.015
+	job_chemist_per_pop=0.015
+	job_researcher_per_pop=0.015
+
+	ship_archaeological_site_excavation_speed_mult=1.0
+	ship_archeaological_site_clues_add=2.0
+}

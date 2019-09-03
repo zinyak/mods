@@ -1,0 +1,10 @@
+NEngine = {} 
+NGameplay = {
+	LEADER_SCIENTIST_ASSIST_RESEARCH_MULT = 8.0				# Assist Research modifier-mult per skill level (this value times skill level equals modifier)
+	EXPERIMENTAL_SUBSPACE_NAVIGATION_TIME_MULT = 0.08
+	RESEARCH_AGREEMENT_SPEED_MULT =	2.0
+	LEADER_MAX_SKILL_CAP	= 20
+	
+	COMMAND_LIMIT_MAX										= 850	# Max value of Command Limit
+	COMMAND_LIMIT_BASE 										= 100	# Base value of Command Limit
+}

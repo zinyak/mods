@@ -1,0 +1,12 @@
+﻿l_english:
+
+ trait_zinyak_edge:0 "Zinyak"
+ trait_zinyak_edge_desc:0 "This species is an advanced race."
+ trait_zinyak_modifier:0 "Overpowered Country"
+
+ trade_policy_alloy_conversion:0 "Convert to alloys"
+ trade_conversion_alloys_name:0 "$trade_policy_consumer_goods$"
+ trade_policy_allow_conversion_desc:0 "Convert trade value to alloys 1=0.5 conversion"
+
+ building_large_resource_silo:0 "Super resource silo"
+ building_large_resource_silo_desc:0 "Holy fuck those silos"

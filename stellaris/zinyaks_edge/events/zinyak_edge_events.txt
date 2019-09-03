@@ -1,0 +1,23 @@
+namespace = zinyaktraits
+
+event = {
+  id = zinyaktraits.1
+  hide_window = yes
+  is_triggered_only = yes
+  immediate = {
+	every_country = {
+		if = {
+			limit = {
+				AND = {
+					has_trait = "trait_zinyak_edge"
+					NOT = { has_modifier = zinyak_edge_modifier }
+					}
+				}
+				add_modifier = {
+					modifier = zinyak_edge_modifier
+					days = -1
+				}
+			}
+		}
+	}
+}
