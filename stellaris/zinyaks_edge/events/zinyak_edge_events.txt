@@ -9,7 +9,8 @@ event = {
 		if = {
 			limit = {
 				AND = {
-					has_trait = "trait_zinyak_edge"
+					#has_trait = "trait_zinyak_edge"
+					is_ai = no
 					NOT = { has_modifier = zinyak_edge_modifier }
 					}
 				}

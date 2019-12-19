@@ -20,7 +20,7 @@
 @protectorate_tech_switch = 0.5
 
 vassal = {
-	can_expand = no
+	can_expand = yes
 	can_be_integrated = yes
 	
 	research_agreement = yes
@@ -33,9 +33,10 @@ vassal = {
 	diplo_threat = 1.5
 
 	subject_tax_rate = {
-		minerals = 0.25
-		energy = 0.25
-		alloys= 0.75
+		minerals = 0.30
+		energy = 0.30
+		alloys= 0.30
+		consumer_goods= 0.30
 	}
 
 	potential = {	
@@ -163,7 +164,7 @@ vassal = {
 }
 
 protectorate = {
-	can_expand = no
+	can_expand = yes
 	can_be_integrated = yes
 	
 	research_agreement = no
@@ -177,7 +178,7 @@ protectorate = {
 	overlord_resources = {
 		category = subjects
 		produces = {
-			influence = 0.25
+			influence = 1.50
 		}
 	}
 	

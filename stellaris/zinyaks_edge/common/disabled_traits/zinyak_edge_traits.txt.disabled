@@ -8,5 +8,6 @@ trait_zinyak_edge = {
 	allowed_archetypes = { BIOLOGICAL MACHINE }
 	modifier = {
 		pop_government_ethic_attraction = 2.0
+		pop_growth_speed = 0.50
 	}
 }

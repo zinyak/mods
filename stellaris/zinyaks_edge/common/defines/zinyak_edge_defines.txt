@@ -1,10 +1,25 @@
 NEngine = {} 
 NGameplay = {
-	LEADER_SCIENTIST_ASSIST_RESEARCH_MULT = 8.0				# Assist Research modifier-mult per skill level (this value times skill level equals modifier)
+	LEADER_SCIENTIST_ASSIST_RESEARCH_MULT = 5.0				# Assist Research modifier-mult per skill level (this value times skill level equals modifier)
 	EXPERIMENTAL_SUBSPACE_NAVIGATION_TIME_MULT = 0.08
 	RESEARCH_AGREEMENT_SPEED_MULT =	2.0
 	LEADER_MAX_SKILL_CAP	= 20
+	MEGASTRUCTURE_BUILD_CAP_BASE = 3
 	
-	COMMAND_LIMIT_MAX										= 850	# Max value of Command Limit
+	COMMAND_LIMIT_MAX										= 1000	# Max value of Command Limit
 	COMMAND_LIMIT_BASE 										= 100	# Base value of Command Limit
+
+	MIN_HABITABILITY = 0.60						# Planet habitability must be at least this value to be able to colonize
+	HABITABILITY_WRONG_PLANET		= 0.80		# Below which point we color habitability icons and text yellow
+	HABITABILITY_OPPOSITE_PLANET	= 0.60		# Below which point we color habitability icons and text red
+}
+
+NShip = {		
+		FLEET_MOVE_MAX_DIST_SHIPS						= 20 # 10 / ?
+		FLEET_BASE_FORMATION_SCALE						= 3 # 2  -> 6 /  space?
+		FLEET_BASE_FORMATION_DIV						= 6 # 10 - > 2  /  ranks
+}
+
+NCombat = {
+		SHIP_SMOOTH_ROTATION_THRESHOLD					= 3.141 # pi -> 7.141
 }
